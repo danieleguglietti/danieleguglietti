@@ -15,9 +15,9 @@ jobs:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
 
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_branch: github-metrics
-          committer_message: "build: update `${filename}`"
+          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          # committer_branch: github-metrics
+          # committer_message: "build: update `${filename}`"
 
           # Options
           user: danieleguglietti
