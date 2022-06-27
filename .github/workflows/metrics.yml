@@ -45,7 +45,11 @@ jobs:
           plugin_tweets: yes
           plugin_tweets_attachments: yes
           plugin_tweets_limit: 3
-          plugin_tweets_user: gugliettid
+          plugin_tweets_user: .user.twiter
+          plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
           plugin_music: yes
           plugin_music_limit: 5
+          plugin_music_provide: spotify
+          plugin_music_mode: recent
+          plugin_music_token: ${{ scecrets.SPOTIFY_CREDENTIALS }}
           plugin_music_playlist: https://open.spotify.com/embed/playlist/0vv4IHB7po2bamY1qMG50G
