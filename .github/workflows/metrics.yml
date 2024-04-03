@@ -52,4 +52,4 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_mode: recent
           plugin_music_token: ${{ secrets.SPOTIFY_CREDENTIALS }}
-          plugin_music_playlist: https://open.spotify.com/embed/playlist/0vv4IHB7po2bamY1qMG50G
+          plugin_music_playlist: https://open.spotify.com/playlist/0vv4IHB7po2bamY1qMG50G?si=1b5cf19039f345a6
